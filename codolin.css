@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.header {
+    display: flex;
+    padding: 15px;
+    background: linear-gradient(90.08deg, #8800FF -43.15%, #FFFFFF 42.77%);
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 80px;
+
+}
+
+.brand-name {
+    position: absolute;
+    width: 187px;
+    height: 38px;
+    left: 97px;
+    top: 20px;
+
+    font-family: 'Gill Sans MT Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.8615px;
+    line-height: 115.5%;
+    /* identical to box height, or 38px */
+
+    letter-spacing: 0.23em;
+
+    color: #470086;
+}
+
+.nav-bar-our-services {
+    position: absolute;
+    left: 30%;
+    right: 14.81%;
+    top: 4%;
+    bottom: 16.67%;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.nav-bar-bridal {
+    position: absolute;
+    left: 40%;
+    right: 14.81%;
+    top: 4%;
+    bottom: 16.67%;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.nav-bar-about-us {
+    position: absolute;
+    left: 50%;
+    right: 14.81%;
+    top: 4%;
+    bottom: 16.67%;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.nav-bar-blog {
+    position: absolute;
+    left: 60%;
+    right: 14.81%;
+    top: 4%;
+    bottom: 16.67%;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.nav-bar-contact {
+    position: absolute;
+    left: 70%;
+    right: 14.81%;
+    top: 4%;
+    bottom: 16.67%;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.nav-bar-offer {
+    background-color: #892CDC;
+    font-family: 'Inria Serif';
+    position: absolute;
+    left: 80%;
+    right: 14.81%;
+    top: 4%;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 95%;
+    /* identical to box height */
+    border-radius: 15px;
+    padding: .25%;
+
+    color: #ffffff;
+
+}
+
+.background {
+    background-color: #FFF3D3;
+    ;
+}
+
+.home {
+
+
+    display: flex;
+    width: 100vw;
+    padding: 100px;
+}
+
+.heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    padding: 15px;
+}
+
+.heading-description {
+    padding: 50px;
+}
+
+.consectetur-adipiscing-elit {
+    color: #892CDC;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.description {
+    padding: 15px;
+    width: 613px;
+    height: 155px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    /* or 31px */
+
+
+    color: #000000;
+
+}
+
+.learn-more {
+    width: 138px;
+    height: 30px;
+    margin: 15px;
+
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 95%;
+    border-width: 0;
+    background-color: #892CDC;
+    color: #ffffff;
+    border-radius: 40px;
+
+}
+
+.image-1 {
+    height: 500px;
+    width: 350px;
+}
+
+
+.our-mission {
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.our-mission-image {
+    height: 500px;
+    width: 50vw;
+
+}
+
+.our-mission-container {
+    background-color: #E7D4FF;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-mission-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    text-align: center;
+    padding: 15px;
+    color: #000000;
+
+}
+
+.our-mission-description {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 173.5%;
+    /* or 28px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.our-vision {
+    display: flex;
+}
+
+.our-vision-container {
+    background-color: #E7D4FF;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-vision-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    text-align: center;
+    padding: 15px;
+    color: #000000;
+}
+
+.our-vision-image {
+    height: 500px;
+    width: 50vw;
+}
+
+.our-vision-description {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 173.5%;
+    /* or 28px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.our-founders-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.our-founders-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 51px;
+
+    color: #000000;
+}
+
+.founders {
+    color: #892CDC;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.founders-container {
+    display: flex;
+    padding: 15px;
+
+}
+
+.founders-details {
+    background-color: #ffffff;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+
+}
+
+.image-container {
+    background-color: #892CDC;
+    border-radius: 500px;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+}
+
+.founder-image {
+    border-radius: 45px;
+    position: relative;
+    top: 10px;
+    width: 70px;
+}
+
+.founder-details-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    position: relative;
+    bottom: 25px;
+    color: #892CDC;
+}
+
+.founder-details-description {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 173.5%;
+    /* or 28px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.more {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 173.5%;
+    /* or 31px */
+
+    text-align: center;
+
+    color: #892CDC;
+}
+
+
+
+.awards-and-achievements-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 51px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #892CDC;
+
+}
+
+.logo {
+    height: 300px;
+    width: 20vw;
+}
+
+.carousel-inner {
+    padding: 25px;
+    text-align: center;
+}
+
+.awards-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    padding: 20px;
+    color: #892CDC;
+}
+
+
+.about-and-help-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-container {
+
+    padding: 15px;
+}
+
+.about-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+    color: #892CDC;
+}
+
+.about-item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170%;
+    /* identical to box height, or 24px */
+
+    display: flex;
+
+
+    color: #892CDC;
+}
+
+
+.help-container {
+
+    padding: 15px;
+}
+
+.help-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+    color: #892CDC;
+}
+
+.visa-image {
+    height: 30%;
+    width: 10%;
+    margin: 15px;
+}
+
+
+.follow-us-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+
+    padding: 15px;
+    color: #892CDC;
+}
+
+.media-icons {
+    display: flex;
+    padding: 20px;
+}
+
+.facebook {
+    margin: 10px;
+}
+
+.facebook-icon {
+    height: 20%;
+    width: 20px;
+    margin: 15px;
+}
+
+.sponsores {
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.copy-right-text-and-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.copy-right-image {
+    position: absolute;
+
+    background: #892CDC;
+}
+
+.copy-right-sponsores {
+    display: flex;
+}
+
+.copy-right-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    /* identical to box height, or 24px */
+
+    display: flex;
+    align-items: center;
+
+    color: #892CDC;
+}
